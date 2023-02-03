@@ -156,6 +156,38 @@ function renderAll() {
     locationArray[i].getcookiesale();
     locationArray[i].render();
   }
+  let myform = document.getElementById('my-form');
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  console.log('for submitted');
+
+  let name = event.target.userName.value;
+
+
+  let minCust = parseInt(event.target.minCust.value);
+
+
+  let maxCust = parseInt(event.target.maxCust.value);
+
+
+  let avgCookieBought = parseFloat(event.target.avgCookieBought.value);
+  //console.log(name, minCust, maxCust, avgCookieBought);
+  console.log(minCust);
+  console.log(maxCust);
+  console.log(avgCookieBought);
+
+  let newCity = new Location(name, minCust, maxCust, avgCookieBought);
+  locationArray.push(newCity);
+  newCity.getcookiesale();
+  newCity.render();
+  let tfoot = document.querySelector('tfoot');
+  tfoot.innerHTML='';
+  makeFooter();
+}
+
+myform.addEventListener('submit', handleSubmit);
 };
 
 renderAll(); // invoked my RenderAll function.

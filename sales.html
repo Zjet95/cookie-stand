@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style2.css">
+  <link rel="stylesheet" href="./css/reset.css">
   <a href="index.html"></a>
   <title>Cookie-Stand</title>
 </head>
@@ -24,6 +25,45 @@
         <script src="app.js"></script>
       </tfoot>
     </table>
+
+    <h3>Events: Forms and Boxes</h3>
+  
+    <section id="cookie-options"></section>
+
+    <form id="my-form">
+      <fieldset>
+        <legend>Cookie-Preferences</legend>
+        <label for="userName">Name of City:</label>
+         <!-- <select name="userName" id="userName">
+          <option value="none">None</option>
+          <option value="as">Austin</option>
+          <option value="cw">Cornwall</option>
+          <option value="ny">New York</option>
+         
+        </select> -->
+        <input type="userName" name="userName" placeholder="Ex. city">
+
+        <label for="minCust">Minimum Customer: </label>
+        <input type="minCust" name="minCust" id="minCust" 
+        placeholder=Ex.0-150> 
+
+        
+        <label for="maxCust">Maximum Customer: </label>
+        <input name="maxCust" type="maxCust" id="maxCust" placeholder=Ex.0-150>
+
+        <label for="avgCookieBought">Average Cookies Bought: </label>
+        <input name="avgCookieBought" type="avgCookieBought" id="avgCookieBought" placeholder=Ex.0-25>
+
+       </fieldset>
+       <button type="submit">Submit</button>
+    </form>
+      <h3>Click on a box below</h3>
+
+      <article id="box-one">Box 1</article>
+      <article id="box-two">Box 2</article>
+      <article id="box-three">Box 3</article>
+      <section id="results"></section>
+
 
   </main>
   <footer>
