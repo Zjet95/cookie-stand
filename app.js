@@ -13,11 +13,11 @@ let table = document.getElementById('Locations'); //
 
 // Variable created called table that grabs the element ID within the sales.html and allows to manipulate our CSS & HTML through JS
 
-let locationtablebody = document.querySelector('tbody');
+// let locationtablebody = document.querySelector('tbody');
 
-let locationtablehead = document.querySelector('thead');
+// let locationtablehead = document.querySelector('thead');
 
-let locationtablefoot = document.querySelector('tfoot');
+// let locationtablefoot = document.querySelector('tfoot');
 
 //console.dir(locationSection);
 
@@ -156,9 +156,10 @@ function renderAll() {
     locationArray[i].getcookiesale();
     locationArray[i].render();
   }
+  
   let myform = document.getElementById('my-form');
 
-function handleSubmit(event) {
+  function handleSubmit(event) {
   event.preventDefault();
 
   console.log('for submitted');
@@ -188,8 +189,12 @@ function handleSubmit(event) {
 }
 
 myform.addEventListener('submit', handleSubmit);
+
+
+
 };
 
 renderAll(); // invoked my RenderAll function.
 makeFooter(); // invoked my makeFooter function I created.
+
 

@@ -1,16 +1,17 @@
-table {
+#my-form {
   border-collapse: collapse;
   border: 2px solid rgb(200,200,200);
   letter-spacing: 1px;
   font-size: 0.8rem;
+  padding-bottom: 30px;
 }
 
-td, th {
+thead {
   border: 1px solid rgb(190,190,190);
   padding: 10px 20px;
 }
 
-th {
+thead {
   background-color: rgb(235,235,235);
 }
 
@@ -35,5 +36,10 @@ img {
 }
 
 legend {
-  color:#E9C46A;
+  color:black;
+}
+
+fieldset #preference {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: larges;
 }
