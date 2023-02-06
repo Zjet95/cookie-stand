@@ -7,58 +7,54 @@
   <link rel="stylesheet" href="./css/style2.css">
   <link rel="stylesheet" href="./css/reset.css">
   <a href="index.html"></a>
-  <title>Cookie-Stand</title>
+  <title>SalmonCookies</title>
 </head>
 <body>
-  <!-- <div id="seattleSales"></div>
-  <section id="tokyoSales"></section>
-  <article id="dubaiSales"></article>
-  <div id="parisSales"></div>
-  <section id="limaSales"></section> -->
+
   <header>
-    <button class="button" 
-    onclick="window.location.href = 'https://zjet95.github.io/cookie-stand/';">
-        Back Home 
-    </button>
-  </header>
-  <main>
-    <table id="Locations">
-    <thead></thead>
-      <tbody></tbody>
-      <tfoot>
-        <script src="app.js"></script>
-      </tfoot>
-    </table>
-
-    <h3>Events: Forms and Boxes</h3>
+    <header>
+      <main>
+      <h1 id="header1">Cookies-Stand</h1>
+      <button id="homebutton"><a href="index.html">Home</a></button>
+      <table id="Locations">
+        <thead></thead>
+        <tbody></tbody>
+        <tfoot>
+        </tfoot>
+      </table>
+    
+      <section id="cookie-options"></section>
   
-    <section id="cookie-options"></section>
-
-    <form id="my-form">
-      <fieldset>
-        <legend id="preference">Cookie-Preferences</legend>
-        <label id="" for="userName">Name of City:</label>
-        <input type="userName" name="userName" placeholder="Ex. city">
-
-        <label for="minCust">Minimum Customer: </label>
-        <input type="minCust" name="minCust" id="minCust" 
-        placeholder=Ex.0-150> 
-
-        
-        <label for="maxCust">Maximum Customer: </label>
-        <input name="maxCust" type="maxCust" id="maxCust" placeholder=Ex.0-150>
-
-        <label for="avgCookieBought">Average Cookies Bought: </label>
-        <input name="avgCookieBought" type="avgCookieBought" id="avgCookieBought" placeholder=Ex.0-25>
-
-       </fieldset>
-       <button type="submit">Submit</button>
-    </form>
+      <form id="my-form">
+        <fieldset>
+          <legend>Cookie-Preferences</legend>
+          <label id="cityname" for="userName">Name of City:</label>
+           
+          </select> -->
+          <input type="userName" name="userName" placeholder="Ex. city">
+  
+          <label for="minCust">Minimum Customer: </label>
+          <input type="minCust" name="minCust" id="minCust" 
+          placeholder=Ex.0-150> 
+  
+          
+          <label for="maxCust">Maximum Customer: </label>
+          <input name="maxCust" type="maxCust" id="maxCust" placeholder=Ex.0-150>
+  
+          <label for="avgCookieBought">Average Cookies Bought: </label>
+          <input name="avgCookieBought" type="avgCookieBought" id="avgCookieBought" placeholder=Ex.0-25>
+  
+         </fieldset>
+         <button id="submit" type="submit">Submit</button>
+      </form>
+  
 
 
   </main>
   <footer>
+    
   </footer>
+  <script src="app.js"></script>
 
 </body>
 
