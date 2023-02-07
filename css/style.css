@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
   /* W3C */
 	background: linear-gradient(top, #ff3232 0%,#fcf528 16%,#28fc28 32%,#28fcf8 50%,#272ef9 66%,#ff28fb 82%,#ff3232 100%);

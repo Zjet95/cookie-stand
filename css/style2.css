@@ -24,5 +24,47 @@ background-color: bisque;
 
 #submit {
   background-color: bisque;
+  text-decoration: underline;
+}
+
+#header1 {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 6px;
+}
+
+tr td{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  font-weight: bold;
+}
+
+tr th{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-weight: bold;
+}
+
+#my-form {
+  margin-top: 15px;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  font-weight: bold;
+}
+
+legend{
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+form button{
+margin-top: 10px;
+margin-left: 0px ;
+}
+
+form #legend{
+  margin-bottom: 10px;
 }
 
